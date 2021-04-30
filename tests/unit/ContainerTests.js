@@ -11,7 +11,7 @@ const {
 	AbstractProjection
 } = require('../../src');
 
-describe('CqrsContainerBuilder', function () {
+describe.skip('CqrsContainerBuilder', function () {
 
 	let builder;
 

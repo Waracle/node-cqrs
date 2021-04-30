@@ -66,7 +66,7 @@ describe('user-domain example', () => {
 		expect(viewRecord).to.have.property('username', 'sherlock');
 	};
 
-	describe('with DI container', () => {
+	describe.skip('with DI container', () => {
 
 		it('handles user aggregate commands, emits events',
 			() => testEventFlow(createContainer()));

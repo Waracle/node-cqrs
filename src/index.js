@@ -1,6 +1,5 @@
 'use strict';
 
-exports.ContainerBuilder = require('./CqrsContainerBuilder');
 exports.EventStream = require('./EventStream');
 
 exports.CommandBus = require('./CommandBus');
